@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+</head>
+<body>
+
+<header>
+    <h1>Handsome Corla's Personal Portfolio</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="services.html">Services</a> |
+        <a href="media.html">Media</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+    <img src="pogi1.png" alt="My profile picture" width="200">
+    <h1>Contact Details of you  </h1>
+
+    <p>Have a question  ? Send me a message!</p>
+
+    <form action="20260843@s.ubaguio.edu" method="POST">
+
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <label for="fullname">Full Name *</label>
+            <br>
+            <input type="text" id="fullname" name="fullname"
+            placeholder="Full Name" required>
+            <br><br>
+
+            <label for="email">Email Address *</label>
+            <br>
+            <input type="email" id="email" name="email"
+            placeholder="Email Address" required>
+            <br><br>
+
+            <label for="topic">Inquiry Topic *</label>
+            <br>
+            <select id="topic" name="topic" required>
+                <option value="">-- Select Inquiry Type --</option>
+                <option value="basic-website">Basic Website Development</option>
+                <option value="business-website">Company Website Development</option>
+                <option value="ecommerce">E-Commerce Website Development</option>
+                <option value="redesign">Website Redesigning</option>
+                <option value="other">Other Inquiry</option>
+            </select>
+            <br><br>
+
+            <label for="message">Message *</label>
+            <br>
+            <textarea id="message" name="message"
+            placeholder="How can I help you?" minlength="3"
+            required></textarea>
+            <br><br>
+
+            <button type="submit">Send Message</button>
+
+        </fieldset>
+
+    </form>
+</main>
+
+<hr>
+
+<footer>
+        <p>© Developed by Corla | Human-Computer Interaction</p>
+    </footer>
+
+</body>
+</html>
